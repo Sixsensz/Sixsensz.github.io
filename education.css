@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-image: url("image/imagehead.png");
+    background-repeat: no-repeat;
+    padding:0px 0px 60px 0px ;
+     background-size: cover;
+    background-position:40%;
+}
+nav{
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+nav a{
+    color: #f00303;
+    text-decoration: none;
+    padding: 0 30px 0 0px;
+}
+.navbox{
+    display: flex;
+    position: relative;
+    left: 0px;
+    margin-right: 50px;
+    padding: 0 40px 0 30px;
+}
+.navbox2{
+    display: flex;
+    position: relative;
+    top: -35px ;
+    left: 1145px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+/*  */
+.education{
+    /* padding-top: 100px; */
+    margin-top: 100px;
+}
+.education h1{
+    color: #ffc23c;
+    margin-left: 700px;
+
+}
+
+.texte{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 60px;
+    text-align: left;
+    margin-left: 550px;
+}
+.dote::before{
+    background:#ffc23c;
+    content: "";
+    top: 270px;
+    height: 20px;
+    left:500px;
+    position: absolute;
+    width:20px;
+    border-radius: 50%;
+}
+.dote1::before{
+    background:#ffc23c;
+    content: "";
+    top: 400px;
+    height: 20px;
+    left:500px;
+    position: absolute;
+    width:20px;
+    border-radius: 50%;
+}
+.dote2::before{
+    background:#ffc23c;
+    content: "";
+    bottom: 220px;
+    height: 20px;
+    left:500px;
+    position: absolute;
+    width:20px;
+    border-radius: 50%;
+}
+.lineedu-box{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.boxeduposition1{
+    top: 288px;
+    /* left: 505px; */
+}
+.boxeduposition2{
+    top: 410px;
+    /* left: 505px; */
+}
+.boxe-1{
+    width: 0;
+    height: 15vh;
+    padding-left: 505px;
+    border: 10px solid #ffc23c;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+.boxe-2{
+    width: 0;
+    height: 18vh;
+    padding-left: 505px;
+    border: 10px solid #ffc23c;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}

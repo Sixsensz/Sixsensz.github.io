@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-image: url("image/imagehead.png");
+    background-repeat: no-repeat;
+    padding:0px 0px 60px 0px ;
+     background-size: cover;
+    background-position:40%;
+}
+nav{
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+nav a{
+    color: #f00303;
+    text-decoration: none;
+    padding: 0 30px 0 0px;
+}
+.navbox{
+    display: flex;
+    position: relative;
+    left: 0px;
+    margin-right: 50px;
+    padding: 0 40px 0 30px;
+}
+.navbox2{
+    display: flex;
+    position: relative;
+    top: -35px ;
+    left: 1145px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+/*  */
+.textcertification h1{
+    color: #ffc23c;
+    font-size: 50px;
+}
+.detailcer{
+    margin-top :30px ;
+}
+
+.textrow9-col2{
+    /* position: absolute; */
+     margin-top: 0px;
+}
+.textdownposition2{
+    top: 850px;
+    left: 20px;
+}
+.containimage1{
+    display: flex;
+    width: 37vw;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.imageslider1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    border-radius: 50px;
+    width: 5vw;
+    cursor: pointer;
+    color: #f00303;
+    overflow: hidden;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+    opacity: 0.7;
+}
+.imageslider1.active{
+    flex: 10;
+    opacity: 1;
+}
+.imageslider1.active h3{
+    opacity: 1;
+}
+.imageslider1 h3{
+    background-color: black;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 270px;
+    margin: 0;
+    opacity: 0;
+}
